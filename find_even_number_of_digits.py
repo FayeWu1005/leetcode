@@ -16,8 +16,9 @@ def findNumbers(nums: List[int]) -> int:
 
 # findNumbers([123, 12])
 
+
 def findNumbers2(nums: List[int]) -> int:
-    nums = map(str , nums)
+    nums = map(str, nums)
     print(nums)
     count = 0
     for i in nums:
@@ -25,4 +26,5 @@ def findNumbers2(nums: List[int]) -> int:
             count += 1
     return count
 
-print(findNumbers2([123,34]))
+
+print(findNumbers2([123, 34]))
