@@ -16,5 +16,9 @@ def sorted_squares(nums):
             result[i] = nums[right] ** 2
             right -= 1
     return result
+res = [0] * 3
 
-# this is a comment to cause some conflict
+
+arr = [1,4,5,2,3]
+for i in range(len(arr)-1, -1, -1):
+    print(i)
