@@ -16,3 +16,5 @@ def sorted_squares(nums):
             result[i] = nums[right] ** 2
             right -= 1
     return result
+
+# this is a comment to cause some conflict
